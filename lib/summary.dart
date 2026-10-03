@@ -29,4 +29,6 @@ class Summary {
       pageUrl: desktop?['page'] as String?,
     );
   }
+
+  bool get hasImage => thumbnailUrl != null;
 }
